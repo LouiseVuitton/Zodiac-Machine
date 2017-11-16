@@ -1,4 +1,11 @@
 
+html, 
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /* BACKGROUND IMAGE */
 #background {
     background-image: url('../img/milky-way.jpg');
@@ -21,13 +28,18 @@ h3 {
     border-top: solid 1px white;
 }
 
+/* SIGN LIST */
+#list {
+    margin-bottom: 15%;
+}
+
 /* FOOTER */
-footer {
+.footer {
+    margin: 0;
+    position: absolute;
+    width: 100%;
     background-color: navy;
     color: white;
-    width: 100%;
-    margin-bottom: 0;
-    position: absolute;
 }
 
 a:hover{
