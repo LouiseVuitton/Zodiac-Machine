@@ -8,6 +8,8 @@ function signs() {
 	let h3 = document.querySelector('h3');
 	let h4 = document.querySelector('h4');
 
+	
+
 
 	h3.innerHTML = "Your Birthday: " + month + "/" + day;
 
@@ -39,3 +41,13 @@ function signs() {
 		console.log(zodiac);
 		h4.innerHTML = "Your sign is " + zodiac;
 		};
+
+// function pic() {
+// 	var pic = document.createElement("IMG");
+// 	pic.setAttribute ("src", "img/aries.png");
+// 	pic.setAttribute ("width", "3.5 rem");
+// 	pic.setAttribute ("height", "3.5 rem");
+// 	pic.setAttribute ("alt", "aries")
+
+// 	document.body.appendChild(pic);
+// };
