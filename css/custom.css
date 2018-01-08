@@ -24,8 +24,8 @@ body {
 }
 
 /* SIGN HEADER */
-h3 {
-    border-top: solid 1px white;
+#userinfo {
+    border-bottom: solid 1px white;
 }
 
 /* SIGN LIST */

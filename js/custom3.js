@@ -5,11 +5,11 @@ function signs() {
 	var value = day + month;
 	var zodiac = value;
 
-	let h6 = document.querySelector('h6');
-	let h7 = document.querySelector('h7');
+	let h3 = document.querySelector('h3');
+	let h4 = document.querySelector('h4');
 
 
-	h6.innerHTML = "Your Birthday: " + month + "/" + day;
+	h3.innerHTML = "Your Birthday: " + month + "/" + day;
 
 		if (month == 1 && day >=20 || month == 2 && day <=18) {value = "Aquarius";}
 		if (month == 1 && day > 31) {alert("Try Again");}
@@ -37,5 +37,5 @@ function signs() {
 		if (month == 12 && day > 31) {alert("Try Again");}
 		zodiac = value;
 		console.log(zodiac);
-		h7.innerHTML = "Your sign is " + zodiac;
+		h4.innerHTML = "Your sign is " + zodiac;
 		};
