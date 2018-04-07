@@ -17,10 +17,9 @@ body {
     border-bottom: solid 1px white;
 }
 
-/* ZODIAC SIGN PHOTOS */
-#signImage {
-    width: 3.5rem;
-    height: 3.5rem;
+/* ZODIAC SIGN */
+#symbol {
+    max-width: 25%;
 }
 
 /* SIGN HEADER */
@@ -28,10 +27,10 @@ body {
     border-bottom: solid 1px white;
 }
 
-/* SIGN LIST */
+/* SIGN LIST
 #list {
     margin-bottom: 15%;
-}
+} */
 
 /* FOOTER */
 .footer {
